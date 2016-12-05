@@ -1,0 +1,21 @@
+{
+  "name": "tictactoe",
+  "version": "1.0.0",
+  "description": "command line tic-tac-toe game from scratch for two players",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./server/app.js",
+    "dev:start": "nodemon ./server/app.js --exec babel-node --presets es2015,stage-2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliusbuckley/TicTacToe.git"
+  },
+  "author": "Julius Buckley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juliusbuckley/TicTacToe/issues"
+  },
+  "homepage": "https://github.com/juliusbuckley/TicTacToe#readme"
+}
