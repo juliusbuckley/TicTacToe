@@ -15,7 +15,8 @@ rl.question('Welcome to Tic Tac Toe! Would you like to start a new game? (y/n) '
     console.log('Hope to see you again! (exit: ctrl + c)');
     rl.close();
   } else if (resp === 'y' || resp === 'yes') {
-    console.log('Start game!');
+    // draw board
+    newGame.drawBoard();
   }
 });
 // app.listen(() => { console.log(`app.js has been served on port: ${port}`); });
